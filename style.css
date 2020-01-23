@@ -1,0 +1,31 @@
+
+.col1{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(102,102,102,1) 21%, rgba(27,26,26,1) 100%);
+}
+
+.btn {
+    display: block;
+    font-weight: 400;
+    color:white;
+    text-align: center;
+    
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 30px;
+    margin-left: 350px;
+}
+
+.col-md-6{
+    padding-left: 0px;
+}
